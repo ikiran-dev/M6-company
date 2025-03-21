@@ -484,3 +484,42 @@
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
+.whatsapp-btn {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  z-index: 1000;
+  background-color: #FF800F;
+  color: white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.1);
+  background-color: #128C7E;
+}
+
+.whatsapp-icon {
+  font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-btn {
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 15px;
+  }
+  
+  .whatsapp-icon {
+    font-size: 28px;
+  }
+}
